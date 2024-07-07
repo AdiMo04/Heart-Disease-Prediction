@@ -47,3 +47,9 @@ The project involves analyzing a heart disease patient dataset, performing data 
 ## Dataset
 
 The dataset used for this project is sourced from Kaggle: [Heart Disease UCI Dataset](https://www.kaggle.com/ronitf/heart-disease-uci).
+
+## Snippets
+
+![Snippet-1](pg1.png)
+
+![Snippet-2](pg2.png)
