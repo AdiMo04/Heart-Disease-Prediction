@@ -1,23 +1,49 @@
-# Heart-Disease-Prediction-using-Machine-Learning
-Thus preventing Heart diseases has become more than necessary. Good data-driven systems for predicting heart diseases can improve the entire research and prevention process, making sure that more people can live healthy lives. This is where Machine Learning comes into play. Machine Learning helps in predicting the Heart diseases, and the predictions made are quite accurate.
+# Heart Disease Prediction using Machine Learning
 
-The project involved analysis of the heart disease patient dataset with proper data processing. Then, different models were trained and and predictions are made with different algorithms KNN, Decision Tree, Random Forest,SVM,Logistic Regression etc
-This is the jupyter notebook code and dataset I've used for my Kaggle kernel 'Binary Classification with Sklearn and Keras'
+This project uses Machine Learning to predict the presence of heart disease in patients, leveraging various algorithms for accurate predictions.
 
-I've used a variety of Machine Learning algorithms, implemented in Python, to predict the presence of heart disease in a patient. This is a classification problem, with input features as a variety of parameters, and the target variable as a binary variable, predicting whether heart disease is present or not.
+## Description
 
-Machine Learning algorithms used:
+The project involves analyzing a heart disease patient dataset, performing data processing, and training multiple machine learning models to predict heart disease. The models used include:
 
-1. Logistic Regression (Scikit-learn)
-2. Naive Bayes (Scikit-learn)
-3. Support Vector Machine (Linear) (Scikit-learn)
-4. K-Nearest Neighbours (Scikit-learn)
-5. Decision Tree (Scikit-learn)
-6. Random Forest (Scikit-learn)
-7. XGBoost (Scikit-learn)
-8. Artificial Neural Network with 1 Hidden layer (Keras)
+- Logistic Regression (Scikit-learn)
+- Naive Bayes (Scikit-learn)
+- Support Vector Machine (Linear) (Scikit-learn)
+- K-Nearest Neighbours (Scikit-learn)
+- Decision Tree (Scikit-learn)
+- Random Forest (Scikit-learn)
+- XGBoost (Scikit-learn)
+- Artificial Neural Network with 1 Hidden layer (Keras)
 
-Accuracy achieved: 95% (Random Forest)
+## Features
 
-Dataset used: https://www.kaggle.com/ronitf/heart-disease-uci
+- **Data Processing**: Cleaning and preprocessing the dataset for model training.
+- **Model Training**: Training various machine learning models.
+- **Prediction**: Making predictions based on trained models.
+- **Evaluation**: Evaluating model performance and accuracy.
 
+## Usage
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/AdiMo04/Heart-Disease-Prediction-using-Machine-Learning.git
+    cd Heart-Disease-Prediction-using-Machine-Learning
+    ```
+
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Jupyter notebook**:
+    ```bash
+    jupyter notebook Heart_Disease_Prediction.ipynb
+    ```
+
+## Results
+
+- **Accuracy**: Achieved 95% accuracy using Random Forest.
+
+## Dataset
+
+The dataset used for this project is sourced from Kaggle: [Heart Disease UCI Dataset](https://www.kaggle.com/ronitf/heart-disease-uci).
